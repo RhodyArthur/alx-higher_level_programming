@@ -1,4 +1,3 @@
-carrie@ubuntu:~/0x00$ cat 10-linked_lists.c
 #include <stdio.h>
 #include <stdlib.h>
 #include "lists.h"
