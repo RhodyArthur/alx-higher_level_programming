@@ -5,5 +5,5 @@ def print_last_digit(number):
     else:
         temp = number * -1
         last = (temp % 10) * -1
-    #print('{:d}'.format(last), end="")
+    print('{:d}'.format(last), end="")
     return last
