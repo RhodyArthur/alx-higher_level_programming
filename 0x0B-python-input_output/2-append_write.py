@@ -4,6 +4,6 @@
 def append_write(filename="", text=""):
     """ Function appendes text to filename """
 
-    with open(filename, 'a', encoding='utf-8') as f:
+    with open(filename, 'a') as f:
         f.write(text)
         return len(text)
